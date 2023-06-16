@@ -6,12 +6,14 @@ import Signup from "./pages/Signup";
 import Player from "./pages/Player";
 import Movies from "./pages/Movies";
 import TVShows from "./pages/TVShows";
-import UserLiked from './pages/UserLiked';
+import UserLiked from "./pages/UserLiked";
+
 export default function App() {
   return (
     <BrowserRouter>
     <Routes>
     <Route exact path="/login" element={<Login />} />
+  
     <Route exact path="/" element={<Netflix />} />
     <Route exact path="/signup" element={<Signup />} />
     <Route exact path = "/player" element = {<Player/>}/>
